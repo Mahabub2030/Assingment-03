@@ -48,13 +48,13 @@
         <header class="container mx-auto lg:px-20">
                 <!-- nav section start here  -->
                 <nav>
-                        <nav class="flex justify-between items-center py-4">
+                        <nav class="flex justify-between items-center py-10 mt-5">
                                 <div class="flex items-center">
                                         <a class="text-[20px] font-bold flex items-center"><i
                                                         class="fa-solid fa-arrow-right -rotate-45 bg-bg text-black rounded-full p-1"></i>Rinterio</a>
                                 </div>
                                 <div class="navbar-center hidden lg:flex">
-                                        <ul class="menu menu-horizontal space-x-4">
+                                        <ul class="menu menu-horizontal space-x-4 text-[16px] font-semibold">
                                                 <li><a>Home</a></li>
                                                 <li><a>Services</a></li>
                                                 <li><a>Portfolio</a></li>
@@ -63,10 +63,10 @@
                                         </ul>
                                 </div>
                                 <div class="lg:flex items-center hidden space-x-4">
-                                        <i class="fa-solid fa-magnifying-glass text-lg"></i>
-                                        <i class="fa-solid fa-cart-shopping text-lg"></i>
+                                        <i class="fa-solid fa-magnifying-glass text-lg rounded-full shadow-xl"></i>
+                                        <i class="fa-solid fa-cart-shopping text-lg rounded-full shadow-2xl"></i>
                                         <a
-                                                class="btn bg-[#ABEF5F] font-[20px] rounded-full hidden md:flex items-center space-x-2">
+                                                class="btn bg-[#ABEF5F] font-[25px] rounded-full hidden md:flex items-center space-x-2">
                                                 <span>Book Consult</span>
                                                 <i
                                                         class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-1"></i>
@@ -96,7 +96,7 @@
 
                         <section class="items-center justify-center text-center">
                                 <div class="mx-auto text-center">
-                                        <img class="lg:ml-64 w-[450px] h-[260px]" src="./assets/banner.png" alt="">
+                                        <img class="lg:mx-auto w-[450px] h-[260px]" src="./assets/banner.png" alt="">
                                 </div>
                                 <div>
                                         <h2 class="text-5xl font-bold text-[#212121] mb-10 md:w-auto">A barn house of
@@ -110,9 +110,9 @@
                                                 windows that flood the space with natural light.
                                         </p>
                                         <div class="mt-5 ">
-                                                <button class="bg-[#ABEF5F80] p-2 space-x-2  rounded-full">View
-                                                        Details<i
-                                                                class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-2 m-1"></i>
+                                                <button class="bg-[#ABEF5F80] p-5  space-x-2  rounded-full text-[20px] font-bold ">View
+                                                        Details<i class="fa-solid fa-arrow-right -rotate-45 bg-[#ABEF5F80] text-black rounded-full p-2 m-1"></i>
+                                                                
 
                                                 </button>
                                         </div>
@@ -126,54 +126,59 @@
 
         <!-- main section start here -->
         <main>
-                <section class="container mx-auto w-auto bg-[]">
-                        <img src="./assets/Vector.png" alt="">
-
-                        <div class="container mx-auto flex ml-28">
-                                <!-- text -->
-                                <div class="w-[560px]">
-                                        <button class="mx-auto btn mb-10 ">
-                                                <i class="fa-solid fa-arrow-right "></i>
-                                                About Us
-                                        </button>
-                                        <h2 class="text-4xl font-bold">We design thoughtful, <br> liveable spaces</h2>
-                                        <p class="text-gray-400 mt-5">The barn house captivates with its blend of rustic charm and <br>modern
-                                                sophistication, featuring weathered wood, sleek metal accents.
-
+                <section class="container mx-auto p-4">
+                        <img src="./assets/Vector.png" alt="" class="mb-6 hidden lg:block">
+                    
+                        <div class="flex flex-col md:flex-row md:mt-10 md:space-x-8">
+                            <!-- text -->
+                            <div class="w-full md:w-[560px] mb-10 md:mb-0">
+                                <button class="mx-auto btn mb-6 flex items-center justify-center md:mb-10">
+                                    <i class="fa-solid fa-arrow-right mr-2"></i>
+                                    About Us
+                                </button>
+                                <h2 class="text-2xl md:text-4xl font-bold">We design thoughtful, <br class="hidden md:block"> liveable spaces</h2>
+                                <p class="text-gray-400 mt-5">The barn house captivates with its blend of rustic charm and <br class="hidden md:block">
+                                    modern sophistication, featuring weathered wood, sleek metal accents.
+                                </p>
+                    
+                                <!-- card 1 -->
+                                <div class="flex p-5 shadow-xl rounded-xl mt-6 md:mt-10 space-x-4">
+                                    <!-- img -->
+                                    <div class="flex-shrink-0">
+                                        <img src="./assets/commercial.png" alt="" class="w-16 h-16 md:w-20 md:h-20">
+                                    </div>
+                                    <!-- text -->
+                                    <div>
+                                        <h2 class="text-lg md:text-xl font-bold mb-3 md:mb-5">Commercial</h2>
+                                        <p class="text-gray-600">The barn house captivates with its blend <br class="hidden md:block">
+                                            of rustic charm and modern.
                                         </p>
-                                        <!-- card 1 -->
-                                         <div class="flex p-5 shadow-xl rounded-xl w-90 space-x-4  mr-10 mt-10">
-                                                <!-- img -->
-                                                <div class="p-5">
-                                                        <img src="./assets/commercial.png" alt="">
-                                                </div>
-                                                <!-- text -->
-                                                 <div class="p-5">
-                                                        <h2 class="text-xl font-bold mb-5">Commercial</h2>
-                                                        <p class="text-gray-600">The barn house captivates with its blend <br> of rustic charm and modern.</p>
-                                                 </div>
-                                         </div>
-                                        <!-- card 2 -->
-                                         <div class="flex p-5 shadow-xl rounded-xl w-90 space-x-4  mr-10 mt-10">
-                                                <!-- img -->
-                                                <div class="p-5">
-                                                        <img src="./assets/residential.png" alt="">
-                                                </div>
-                                                <!-- text -->
-                                                 <div class="p-5">
-                                                        <h2 class="text-xl font-bold mb-5">Residential</h2>
-                                                        <p class="text-gray-600">The barn house captivates with its blend <br> of rustic charm and modern.</p>
-                                                 </div>
-                                         </div>
+                                    </div>
                                 </div>
-                                <!-- img -->
-                                <div class="rounded-2xl w-1/2 h-1/2">
-                                        <img src="./assets/Rectangle.png" alt="">
+                    
+                                <!-- card 2 -->
+                                <div class="flex p-5 shadow-xl rounded-xl mt-6 md:mt-10 space-x-4">
+                                    <!-- img -->
+                                    <div class="flex-shrink-0">
+                                        <img src="./assets/residential.png" alt="" class="w-16 h-16 md:w-20 md:h-20">
+                                    </div>
+                                    <!-- text -->
+                                    <div>
+                                        <h2 class="text-lg md:text-xl font-bold mb-3 md:mb-5">Residential</h2>
+                                        <p class="text-gray-600">The barn house captivates with its blend <br class="hidden md:block">
+                                            of rustic charm and modern.
+                                        </p>
+                                    </div>
                                 </div>
+                            </div>
+                    
+                            <!-- img -->
+                            <div class="w-full md:w-1/2 mt-8 md:mt-0">
+                                <img src="./assets/Rectangle.png" alt="" class="rounded-2xl w-5/6 h-auto">
+                            </div>
                         </div>
-
-                </section>
-
+                    </section>
+                    
         </main>
         <!-- main section ends here -->
 
